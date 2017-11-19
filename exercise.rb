@@ -90,3 +90,12 @@ class Cohort
   end
 
 end
+
+date1 = Date.new(2017,10,23)
+walle=Cohort.new(date1)
+
+puts walle.last_day
+puts walle.no_lecture_on(Date.new(2017,12,24))
+puts walle.class_days
+puts "~"*10
+puts walle.coffee_code_days
